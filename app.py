@@ -78,7 +78,7 @@ with tab2:
         return bot_text
 
     # Load your API key from an environment variable or secret management service
-    openai.api_key = "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"
+    openai.api_key = "--Your API Key--"
 
     query = st.text_area('질문 입력 후 submit을 눌러주세요', value="지역특화거리에 대해 추가로 궁금한 점이 있다면 질문해보세요!", on_change=clear_submit)
     button = st.button("submit")
